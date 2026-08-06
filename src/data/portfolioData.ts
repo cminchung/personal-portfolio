@@ -1,4 +1,7 @@
 import { ProfileInfo, Project } from '../types';
+import strategySimulatorImg from '../assets/images/strategySimulatorIMG.png';
+import portfolioTrackerImg from '../assets/images/portfolioTrackerIMG.png';
+import habitTrackerImg from '../assets/images/habitTrackerIMG.png';
 
 export const PROFILE_DATA: ProfileInfo = {
   name: "Choong Minchung",
@@ -92,7 +95,7 @@ export const PROJECTS_DATA: Project[] = [
     category: "Full-Stack / Next.js App Router & Supabase",
     description: "Built a full-stack financial dashboard using Next.js App Router, TypeScript, and Supabase (PostgreSQL) with Optimistic UI updates to eliminate perceived latency.",
     fullDescription: "Built a full-stack financial dashboard using Next.js App Router, TypeScript, and Supabase (PostgreSQL) with Optimistic UI updates to eliminate perceived latency.",
-    image: "/src/assets/images/strategySimulatorIMG.png",
+    image: strategySimulatorImg,
     tags: ["Next.js App Router", "TypeScript", "Supabase (PostgreSQL)", "Auth.js v5", "Zod", "Vitest", "Optimistic UI"],
     demoUrl: "https://strategy-simulator-next.vercel.app/",
     githubUrl: "https://github.com/cminchung/strategy-simulator-next",
@@ -117,7 +120,7 @@ export const PROJECTS_DATA: Project[] = [
     category: "Financial Tech / Next.js & TanStack Query",
     description: "Architected a portfolio tracking application to compute P&L and visualize asset allocation with a 24-hour API caching layer.",
     fullDescription: "Architected a portfolio tracking application to compute P&L and visualize asset allocation with a 24-hour API caching layer.",
-    image: "/src/assets/images/portfolioTrackerIMG.png",
+    image: portfolioTrackerImg,
     tags: ["Next.js", "TypeScript", "TanStack Query v5", "Zod", "Tailwind CSS", "API Caching", "React 18"],
     demoUrl: "https://portfolio-tracker-next-one.vercel.app/",
     githubUrl: "https://github.com/cminchung/portfolio-tracker-next",
@@ -142,7 +145,7 @@ export const PROJECTS_DATA: Project[] = [
     category: "Productivity App / React 18 & Heatmap Algorithm",
     description: "Engineered a habit tracking app with streak calculations and a 90-day GitHub-style calendar heatmap rendered in O(1) time complexity.",
     fullDescription: "Engineered a habit tracking app with streak calculations and a 90-day GitHub-style calendar heatmap rendered in O(1) time complexity.",
-    image: "/src/assets/images/habitTrackerIMG.png",
+    image: habitTrackerImg,
     tags: ["Next.js", "React 18", "TypeScript", "Tailwind CSS", "Custom Hooks", "Performance Optimization"],
     demoUrl: "https://habit-tracker-next-theta.vercel.app/",
     githubUrl: "https://github.com/cminchung/habit-tracker-next",
