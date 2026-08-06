@@ -1,0 +1,6 @@
+{
+  "name": "Portfolio Landing Page",
+  "description": "A modern, responsive portfolio landing page featuring Intro, Tech Stack, 3 Projects, and Contact section with Next.js code export capabilities.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
